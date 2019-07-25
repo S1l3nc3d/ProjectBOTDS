@@ -1,6 +1,7 @@
 from __future__ import unicode_literals
 import discord
 import logging
+import os
 import ffmpeg
 import mp3
 import time
@@ -13,7 +14,7 @@ discord.opus.load_opus
 client = commands.Bot(command_prefix='.')
 client.remove_command('help')
 
-token = Token
+token = os.environ['Token']
 
 #loggingsetup
 logger = logging.getLogger('discord')
