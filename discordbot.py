@@ -13,7 +13,7 @@ discord.opus.load_opus
 client = commands.Bot(command_prefix='.')
 client.remove_command('help')
 
-token = 'NjAwMTUzMzE5NjEyMDg4Mzgw.XS6VMg.3gXzU6td4ecizeDqHdsjMsh62bM'
+#token = 'NjAwMTUzMzE5NjEyMDg4Mzgw.XS6VMg.3gXzU6td4ecizeDqHdsjMsh62bM'
 
 #loggingsetup
 logger = logging.getLogger('discord')
@@ -114,4 +114,4 @@ async def music_play(ctx):
                 break
     await ctx.send("Музыка закончилась")
 
-client.run(token)
+client.run('NjAwMTUzMzE5NjEyMDg4Mzgw.XTlX0A.pxileKjIhFXTLKnMxMFmqC_pHZU')
