@@ -114,4 +114,4 @@ async def music_play(ctx):
                 break
     await ctx.send("Музыка закончилась")
 
-client.run('NjAwMTUzMzE5NjEyMDg4Mzgw.XTlYaQ.UoxcZYEDWTRgCxL-q9ByBxKJ7hI')
+client.run('NjAwMTUzMzE5NjEyMDg4Mzgw.XTlYuA.UhlGFjKkyrMFK8fG-uS1yvZTAfE')
