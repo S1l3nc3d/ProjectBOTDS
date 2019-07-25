@@ -13,7 +13,7 @@ discord.opus.load_opus
 client = commands.Bot(command_prefix='.')
 client.remove_command('help')
 
-token = 'NjAwMTUzMzE5NjEyMDg4Mzgw.XTlaLA.UG3x8OkYSHY63fKIoqVRETcA0qg'
+token = Token
 
 #loggingsetup
 logger = logging.getLogger('discord')
